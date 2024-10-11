@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://ftmserver:ftm@cluster0.fneio.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "BQG3FogAJrNnH9YIJY2UYgixF9kTuwwt2AmaWcDll5wHdUlQRop7S6-6IxU2YnIlyWDNkh1VkTxENKvMVoFdziK_lRwdPEXDGFugXm1mu8A8DKQjo9isGbsRsUKUSOcaUAVtAEyNEJN_UePRA9kfHiwdsB13sUp1hTautS5Y2tUacey7Up8l-OMej9tAqb6ixMDTu7WeykFNqMYGpvzO3JD8ClWXyiV8hek15N7ctwlIAo8VhkghqjmwgzhUOHVKdshgHcT9OVKCsdBFxevice0jRXVwbkyGc6MpjwRd1Il4R0IRwbP623tDCmOli-84stKLeNgfRkBZe-n_T3VCIhLyWzmCdAAAAAHLnSGzAA")   
+    SESSION = os.environ.get("SESSION", "BQG3Y2UYgixF9kTuwwt2AmaWcDll5wHdUlQRop7S6-6IxU2YnIlyWDNkh1VkTxENKvMVoFdziK_lRwdPEXDGFugXm1mu8A8DKQjo9isGbsRsUKUSOcaUAVtAEyNEJN_UePRA9kfHiwdsB13sUp1hTautS5Y2tUacey7Up8l-OMej9tAqb6ixMDTu7WeykFNqMYGpvzO3JD8ClWXyiV8hek15N7ctwlIAo8VhkghqjmwgzhUOHVKdshgHcT9OVKCsdBFxevice0jRXVwbkyGc6MpjwRd1Il4R0IRwbP623tDCmOli-84stKLeNgfRkBZe-n_T3VCIhLyWzmCdAAAAAHLnSGzAA")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1002261985371"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "ftmcompressorbot")
 
